@@ -34,5 +34,6 @@ const allCach = users
 console.log(allCach)
 
 const git = [1, 3, 9, 12, 15]
-
 console.log(git[1])
+git.length = 0
+console.log(git)
