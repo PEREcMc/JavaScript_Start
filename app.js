@@ -231,3 +231,125 @@ if (age >= 14 && age <= 90) {
     alert("В диапазоне от 14 до 90")
 } else { alert('Число не в диапазоне от 14 до 90')}
 
+
+// Оператор нулевого слияния (??)  ВОЗВРАЩАЕТ ПЕРВОЕ ОПРЕДЕЛЁННОЕ ЗНАЧЕНИЕ
+
+// Оператор ?? возвращает первый аргумент, если он не null/undefind, иначе - второй.
+
+let user;
+alert(user ?? 'Anonim') // Anonim
+
+height = height ?? 100 // присвоение значения по умолчанию
+
+
+// Цикл while 
+
+while (condition) {
+    // код - тело цикла
+}
+
+let i = 3
+while (i <= 9) {
+    alert(i)
+    i++
+}
+
+// Do...while
+
+let i = 5
+do {
+    alert(i)
+    i++
+} while (i < 7);
+
+
+// Цикл For
+
+for (let index = 0; index < 3; index++) {
+    alert(index)
+}
+
+// break - прерывание цикла
+
+let sum = 0
+while (true) {
+    let value = +prompt('Введите число', '')
+    if(!value) break
+    sum += value
+}
+alert('Сумма: ' +  sum)
+
+ // Метки
+
+outer: for (let x = 0; x < 99; x++) {
+     for (let y = 0; y < 99; y++) {
+         let input = prompt(`Значение на координатах: (${x}, ${y})`, '')
+         if (!input) break outer
+     }
+ }
+ alert('Готово!')
+
+ for (let i = 2; i <= 10; i++)  {
+    if (i % 2 == 0) {
+        alert(i)
+    }  
+ }
+ let i = 0
+ while (i < 3) {
+     alert(`number ${i}`)
+     i++
+}
+
+// Switsh
+
+switch (key) {
+    case value:
+        
+        break;
+
+    default:
+        break;
+}
+
+
+let browser = prompt('Input browser name', '')
+if (browser === "Edge") {
+    alert('This Edge.')
+} else if (browser === "Chrome" || browser === "Firefox" || browser === "Safari") {
+    alert('Ok, we support these browser too')
+} else { 
+    alert('We hope that this page looks ok!')
+}
+
+// switch (browser) {
+//     case "Edge":
+//         alert('This Edge.')
+//         break;
+//     case "Chrome":
+//     case "Firefox":
+//     case "Safari":
+//         alert('Ok, we support these browser too')
+//         break;
+//     default:
+//         alert('We hope that this page looks ok!')
+//         break;
+// }
+
+const number = +prompt("Введите число между 0 и 3", '') 
+switch (number) {
+    case 0:
+        alert("Вы ввели число 0")
+        break
+    case 1:
+        alert("Вы ввели число 1")
+        break
+    case 2:
+    case 3:
+        alert("Вы ввели число 2, а может и 3")
+        break    
+}
+
+
+// Функции
+
+
