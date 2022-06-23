@@ -2,4 +2,4 @@
 
 ### Код, некоторые пояснения. Изучаю JS
 
-Course about git
+Course about git.
