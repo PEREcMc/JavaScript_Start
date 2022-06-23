@@ -352,4 +352,8 @@ switch (number) {
 
 // Функции
 
+function name(params) {
+    // тело функции
+}
+
 
