@@ -1,5 +1,3 @@
-# Git and Github Course
+# JavaScript lessons
 
-### Код, некоторые пояснения. Изучаю JS
-
-Course about git.
+### Основы языка, код, пояснения.
